@@ -1,0 +1,89 @@
+🚗 Car Parking System in C++
+✅ Overview
+The Car Parking System is a console-based application developed in C++ to simulate the management of a parking lot. It allows monitoring of car entries and exits, managing available parking spaces, and displaying real-time parking information. This is a simple yet effective solution for understanding how automated parking systems work.
+
+🎯 Features
+🅿️ Parking a Car – Decrease available space when a car is parked.
+
+🚙 Car Exit – Increase available space when a car leaves.
+
+🔢 Show Parking Status – View total capacity, available slots, and parked cars.
+
+❌ Prevent Overparking – Denies entry if no space is available.
+
+✅ Prevent Underflow – Denies exit if no cars are currently parked.
+
+🧱 Functional Modules
+Common functions included:
+
+void parkCar() – Parks a car and updates the count.
+
+void removeCar() – Removes a car from parking.
+
+void displayStatus() – Shows current status of the parking lot.
+
+💻 Technologies Used
+Programming Language: C++
+
+Concepts Used:
+
+Classes and Objects
+
+Constructors
+
+Control Structures (if-else, loops)
+
+File I/O (optional)
+
+Encapsulation and modular code design
+
+📂 Project Files
+File Name	Description
+main.cpp	Main source code file
+README.md	Project documentation
+parking_data.txt	(Optional) File to store parking data
+
+🚀 How to Run
+Compile the Code
+
+bash
+Copy
+Edit
+g++ main.cpp -o parking
+Run the Program
+
+bash
+Copy
+Edit
+./parking
+Follow Menu Options
+Use the terminal menu to park or remove cars and display the current parking status.
+
+🧪 Sample Output
+text
+Copy
+Edit
+===== Car Parking System =====
+1. Park a Car
+2. Remove a Car
+3. Show Parking Status
+4. Exit
+Enter your choice: 1
+
+Car parked successfully.
+Available slots: 4
+📌 Limitations
+Basic terminal interface (no GUI).
+
+No vehicle tracking (e.g., license plate numbers).
+
+No time tracking or billing features.
+
+💡 Future Enhancements
+Add unique car ID and license plate logging.
+
+Add entry/exit timestamps and calculate parking fees.
+
+Implement GUI using C++ with Qt or JavaFX.
+
+Integrate with sensor modules for real-time systems.
